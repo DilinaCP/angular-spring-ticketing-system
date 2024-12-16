@@ -1,0 +1,19 @@
+/* Container for the ticket display */
+.ticket-display {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the heading */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Styling for paragraphs */
+p {
+  margin: 5px 0;
+}

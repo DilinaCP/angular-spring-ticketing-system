@@ -1,0 +1,15 @@
+<div class="app-container">
+  <div class="left-section">
+    <app-configuration-form (simulationConfigured)="onSimulationConfigured()"></app-configuration-form>
+    <app-control-panel #controlPanelComponent></app-control-panel>
+  </div>
+
+  <div class="right-section">
+    <div class="log-section">
+        <app-log-display></app-log-display>
+    </div>
+    <div class="ticket-section">
+        <app-ticket-display [refreshTrigger]="refreshTrigger"></app-ticket-display>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+/* Styling for the main application container */
+.app-container {
+  display: flex;            /* Use flexbox for layout */
+  height: 100vh;           /* Make the container take up full viewport height */
+  width: 100%;             /* Make the container take up full viewport width */
+  justify-content: space-around; /* Distribute space around the sections */
+}
+
+/* Styling for the left section (configuration form and control panel) */
+.left-section {
+  display: flex;
+  flex-direction: column;  /* Stack components vertically */
+  width: 40%;              /* Adjust width as needed */
+  border: 1px solid lightgray; /* Add a border for visual separation */
+  justify-content: space-between; /* Distribute space between components */
+}
+
+/* Styling for the right section (log and ticket displays) */
+.right-section {
+  display: flex;
+  flex-direction: column;  /* Stack components vertically */
+  width: 60%;              /* Adjust width as needed */
+  border: 1px solid lightgray; /* Add a border for visual separation */
+}
+
+/* Styling for the log section */
+.log-section {
+  height: 50%;             /* Occupy half the height of the right section */
+}
+
+/* Styling for the ticket section */
+.ticket-section {
+  height: 50%;             /* Occupy half the height of the right section */
+}

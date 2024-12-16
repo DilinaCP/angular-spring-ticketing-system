@@ -1,0 +1,14 @@
+<div class="control-panel">
+  <h2>Control Panel</h2>
+  <div class="button-group">
+    <button (click)="startSimulation()" [disabled]="simulationRunning || !simulationConfigured">
+      Start Simulation
+    </button>
+    <button (click)="stopSimulation()" [disabled]="!simulationRunning">
+      Stop Simulation
+    </button>
+    <button (click)="resetSimulation()" [disabled]="!simulationConfigured && !simulationRunning">
+      Reset Simulation
+    </button>
+  </div>
+</div>
